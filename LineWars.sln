@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LineWars", "LineWars", "{5656BB0C-98FD-4493-ACD5-66F6AC165DF5}"
+EndProject
+Project("{39E2626F-3545-4960-A6E8-258AD8476CE5}") = "LineWars.Android.Packaging", "LineWars\LineWars.Android.Packaging\LineWars.Android.Packaging.androidproj", "{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}"
+EndProject
+Project("{DBADA880-67D1-4C77-86E9-85A29877A8A0}") = "LineWars.iOS.Application", "LineWars\LineWars.iOS.Application\LineWars.iOS.Application.iosproj", "{7A7BC432-6288-4356-8671-42A062E075D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{39C92473-D59B-4012-9B6A-2236C6E9312D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LineWars.Shared", "LineWars\LineWars.Shared\LineWars.Shared.vcxitems", "{DDE32584-8B68-4C9D-96C3-94655430F1E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LineWars.Android.NativeActivity", "LineWars\LineWars.Android.NativeActivity\LineWars.Android.NativeActivity.vcxproj", "{60B49BAF-897F-4A82-9824-7234B6444308}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LineWars.iOS.StaticLibrary", "LineWars\LineWars.iOS.StaticLibrary\LineWars.iOS.StaticLibrary.vcxproj", "{D41B3CF6-8F4A-4239-9C7D-ADABE347FCBB}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		LineWars\LineWars.Shared\LineWars.Shared.vcxitems*{60b49baf-897f-4a82-9824-7234b6444308}*SharedItemsImports = 4
+		LineWars\LineWars.Shared\LineWars.Shared.vcxitems*{dde32584-8b68-4c9d-96c3-94655430f1e5}*SharedItemsImports = 9
+		LineWars\LineWars.Shared\LineWars.Shared.vcxitems*{d41b3cf6-8f4a-4239-9c7d-adabe347fcbb}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Debug|ARM.Build.0 = Debug|ARM
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Debug|ARM.Deploy.0 = Debug|ARM
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Debug|x86.ActiveCfg = Debug|x86
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Debug|x86.Build.0 = Debug|x86
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Debug|x86.Deploy.0 = Debug|x86
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Release|ARM.ActiveCfg = Release|ARM
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Release|ARM.Build.0 = Release|ARM
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Release|ARM.Deploy.0 = Release|ARM
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Release|x86.ActiveCfg = Release|x86
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Release|x86.Build.0 = Release|x86
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE}.Release|x86.Deploy.0 = Release|x86
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Debug|ARM.Build.0 = Debug|ARM
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Debug|ARM.Deploy.0 = Debug|ARM
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Debug|x86.ActiveCfg = Debug|x86
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Debug|x86.Build.0 = Debug|x86
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Debug|x86.Deploy.0 = Debug|x86
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Release|ARM.ActiveCfg = Release|ARM
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Release|ARM.Build.0 = Release|ARM
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Release|ARM.Deploy.0 = Release|ARM
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Release|x86.ActiveCfg = Release|x86
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Release|x86.Build.0 = Release|x86
+		{7A7BC432-6288-4356-8671-42A062E075D3}.Release|x86.Deploy.0 = Release|x86
+		{60B49BAF-897F-4A82-9824-7234B6444308}.Debug|ARM.ActiveCfg = Debug|ARM
+		{60B49BAF-897F-4A82-9824-7234B6444308}.Debug|ARM.Build.0 = Debug|ARM
+		{60B49BAF-897F-4A82-9824-7234B6444308}.Debug|x86.ActiveCfg = Debug|x86
+		{60B49BAF-897F-4A82-9824-7234B6444308}.Debug|x86.Build.0 = Debug|x86
+		{60B49BAF-897F-4A82-9824-7234B6444308}.Release|ARM.ActiveCfg = Release|ARM
+		{60B49BAF-897F-4A82-9824-7234B6444308}.Release|ARM.Build.0 = Release|ARM
+		{60B49BAF-897F-4A82-9824-7234B6444308}.Release|x86.ActiveCfg = Release|x86
+		{60B49BAF-897F-4A82-9824-7234B6444308}.Release|x86.Build.0 = Release|x86
+		{D41B3CF6-8F4A-4239-9C7D-ADABE347FCBB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D41B3CF6-8F4A-4239-9C7D-ADABE347FCBB}.Debug|ARM.Build.0 = Debug|ARM
+		{D41B3CF6-8F4A-4239-9C7D-ADABE347FCBB}.Debug|x86.ActiveCfg = Debug|x86
+		{D41B3CF6-8F4A-4239-9C7D-ADABE347FCBB}.Debug|x86.Build.0 = Debug|x86
+		{D41B3CF6-8F4A-4239-9C7D-ADABE347FCBB}.Release|ARM.ActiveCfg = Release|ARM
+		{D41B3CF6-8F4A-4239-9C7D-ADABE347FCBB}.Release|ARM.Build.0 = Release|ARM
+		{D41B3CF6-8F4A-4239-9C7D-ADABE347FCBB}.Release|x86.ActiveCfg = Release|x86
+		{D41B3CF6-8F4A-4239-9C7D-ADABE347FCBB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D0652AC-2DFC-4593-A3AC-6A67AA7962FE} = {5656BB0C-98FD-4493-ACD5-66F6AC165DF5}
+		{7A7BC432-6288-4356-8671-42A062E075D3} = {5656BB0C-98FD-4493-ACD5-66F6AC165DF5}
+		{39C92473-D59B-4012-9B6A-2236C6E9312D} = {5656BB0C-98FD-4493-ACD5-66F6AC165DF5}
+		{DDE32584-8B68-4C9D-96C3-94655430F1E5} = {39C92473-D59B-4012-9B6A-2236C6E9312D}
+		{60B49BAF-897F-4A82-9824-7234B6444308} = {39C92473-D59B-4012-9B6A-2236C6E9312D}
+		{D41B3CF6-8F4A-4239-9C7D-ADABE347FCBB} = {39C92473-D59B-4012-9B6A-2236C6E9312D}
+	EndGlobalSection
+EndGlobal
